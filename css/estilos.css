@@ -1,0 +1,638 @@
+/* ESTILOS GENERALES */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#1859b6;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#particles-js {
+	height: 100%; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 80%;
+    background-size: cover;
+    background-color: #000000;
+    background-position:center;
+	margin-left: auto; 
+	margin-right: auto;
+    padding: 20px 30px;
+    position: relative;
+    z-index: 99;
+    opacity: .85;
+}
+
+.contenedor.header {
+    border: 0px solid #555555;
+}
+
+.barra-navegacion ul {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.barra-navegacion li {
+    list-style: none;
+    display: inline-block;
+}
+
+.barra-navegacion .logo { 
+    color:#3dff3e;
+    font-size: 50px;
+}
+
+.barra-navegacion a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .5s ease;
+}
+
+.barra-navegacion a:hover {
+    color: #71B4EE;
+    border-bottom: 1px solid currentcolor;
+}
+
+
+@keyframes parpadeo  {
+    0%, 41%, 45%, 47%, 49.5%, 100%  { 
+        opacity: 1;
+    }
+
+    42%, 44%, 46%,48%,  50%  { 
+        opacity: 0; 
+    }
+}
+
+
+/* Otros */
+
+.img1 {
+    height: 190px;
+    width: 330px;
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+}
+
+.img1:hover {
+  box-shadow: 0 0 30px #0E1FF4
+}
+
+
+.img2 {
+    height: 90px;
+    width: 82px;
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+    transition: transform .2s;
+}
+
+.img2:hover {
+  transform: scale(1.1);
+}
+
+.img3 {
+    height: 120px;
+    width: 110px;
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+    transition: transform .2s;
+}
+
+.img3:hover {
+  transform: scale(1.1);
+}
+
+.img4 {
+    scale:  0.5;
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+    transition: transform .2s;
+}
+
+.img4:hover {
+  transform: scale(1.1);
+}
+
+
+.img5 {
+    height: 125px;
+    width: 120px;
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+    transition: transform .2s;
+}
+
+.img5:hover {
+  transform: scale(1.1);
+}
+
+.img6 {
+    height: 350px;
+    width: 200spx;
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+    transition: transform .2s;
+}
+
+.img6:hover {
+  transform: scale(1.1);
+}
+
+.globo {
+    height: 135px;
+    width: 70px;
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+    transition: transform .2s;
+}
+
+.globo:hover {
+  transform: scale(1.1);
+}
+
+.cat {
+    height: 110px;
+    width: 110px;
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+    transition: transform .2s;
+}
+
+.cat:hover {
+  transform: scale(1.1);
+}
+
+
+.candadin {
+    height: 95px;
+    width: 110px;
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+    transition: transform .2s;
+}
+
+.candadin:hover {
+  transform: scale(1.1);
+}
+
+
+.guardadin {
+    height: 95px;
+    width: 110px;
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+    transition: transform .2s;
+}
+
+.guardadin:hover {
+  transform: scale(1.1);
+}
+
+.fantasmin {
+    height: 105px;
+    width: 80px;
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+    transition: transform .2s;
+}
+
+.fantasmin:hover {
+  transform: scale(1.1);
+}
+
+.portada1 {
+    scale: 0.8;
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+    transition: transform .2s;
+}
+
+.portada1:hover {
+  transform: scale(1.1);
+}
+
+.final1 {
+    scale: 0.7;
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+    transition: transform .2s;
+}
+
+.final2:hover {
+  transform: scale(1.1);
+}
+
+.yo1 {
+    scale: 0.4;
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+    transition: transform .2s;
+}
+
+.yo1:hover {
+  transform: scale(1.1);
+}
+
+.fotoscafe2 {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.fotoscafe {
+    display: flex;
+    flex-direction: rows;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.container2 { 
+    text-align: center; 
+}
+
+.texto3 {
+        font-size: 20px;
+        margin-left: 20%;
+        margin-right: 20%;
+}
+
+.texto4 {
+        font-size: 25px;
+}
+
+.texto4 {
+        font-size: 25px;
+        text-decoration: underline;
+}
+
+.presentacion1 {
+   padding-right: 100px;
+   padding-left: 100px;
+}
+
+
+#hoverfuego {
+    box-shadow: none;
+    transition:box-shadow 1s ease;
+}
+
+#hoverfuego:hover {
+  box-shadow: 0 0 50px #990303
+}
+
+.imgli {
+    transition: transform .2s;
+}
+
+.imgli:hover {
+     transform: scale(1.1);
+}
+
+/* ----- MEDIA QUERIES------ */
+
+@media screen and (max-width: 500px) {
+
+
+.giffuego {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+.contenedor {
+    width: 90%;
+    max-width: 80%;
+    padding: 0px 0px;
+    background-size: cover;
+    background-color: #000000;
+    background-position:center;
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative;
+    z-index: 99;
+    opacity: .85;
+}
+
+.barra-navegacion ul {
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+.barra-navegacion li {
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 5px;
+}
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main .menu {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main .menu .titulo {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main .menu .contenedor-menu {
+    border: 1px solid #8A8686;
+    background:transparent;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.main .menu article {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.main .menu article .categoria {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main .menu article .platillo {
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 4px dotted #8A8686;
+}
+
+.main .menu article .nombre {
+    font-size:20px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.main .menu article .precio {
+    float: right;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.main .menu article .descripcion {
+    font-size: 16px;
+    color: #676767;
+    clear: both;
+}
+
+.main .menu .contenedor-menu2 {
+    border: 1px solid #8A8686;
+    background:transparent;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.main .galeria {
+    overflow: hidden;
+}
+
+.main .galeria .foto {
+    width: 25%;
+    float: left;
+}
+
+.main .galeria .foto img {
+    vertical-align: top;
+    width: 100%;
+    opacity: .7;
+}
+
+.main .galeria .foto img:hover {
+    opacity: 1;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.main .ubicacion {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.main .ubicacion .titulo {
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.main .ubicacion .direccion {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.main .ubicacion .horarios {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.main .ubicacion .direccion .calle {
+    margin-bottom: 15px;
+}
+
+.main .ubicacion .horarios {
+    overflow: hidden;
+}
+
+.main .ubicacion .horarios h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main .ubicacion .horarios .entre-semana,
+.main .ubicacion .horarios .fin-semana {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.main .mapa {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main .mapa iframe {
+    width: 100%;
+    max-height: 600px;
+}
+
+/* ----- ----- FOOTER ----- ----- */
+footer {
+    background: #000;
+}
+
+footer .copyright {
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+}
+
+.main .mapa {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main .mapa iframe {
+    width: 100%;
+    max-height: 600px;
+}
+
+
+/* ----- ----- MEDIA QUERIES ----- ----- */
+@media screen and (max-width: 800px) {
+    header .contenedor {
+        position: static;
+        height: auto;
+        padding: 0px 0px;
+    }
+
+    header .textos {
+        position: static;
+        margin: 100px 0;
+    }
+
+    header .menu {
+        text-align: center;
+    }
+
+    header .menu a {
+        margin: 10px 20px;
+    }
+
+    header .textos .nombre {
+        font-size: 30px;
+    }
+
+    header .textos h3 {
+        font-size: 18px;
+    }
+
+    .main .acerca-de .foto {
+        position: relative;
+        width: 100%;
+    }
+
+    .main .acerca-de article {
+        position: relative;
+        width: 100%;
+        top:-50px;
+        transform: translate(0px, 0);
+    }
+
+    .main .menu {
+        padding-top: 300px;
+    }
+
+    .main .menu article {
+        width: 100%;
+    }
+
+    .main .galeria .foto {
+        width: 50%;
+    }
+
+    .main .mapa {
+        width: 80%;
+        margin: auto;
+    }
+
+    
+}
+
+@media screen and (max-width: 400px) {
+    .main .acerca-de article h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    .main .menu article .nombre,
+    .main .menu article .precio {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .main .ubicacion .direccion,
+    .main .ubicacion .horarios {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main .ubicacion .direccion {
+        margin-bottom: 20px;
+    }
+
+    .main .ubicacion .horarios .entre-semana,
+    .main .ubicacion .horarios .fin-semana {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
